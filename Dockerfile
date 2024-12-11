@@ -1,4 +1,4 @@
-# Utiliser une image de base Pytho
+# Utiliser une image de base Python
 FROM python:3.10-slim
 
 # Installer les dépendances nécessaires
