@@ -15,7 +15,7 @@ def index():
 def check_service(url):
     try:
         response = requests.head(url, timeout=5)
-        if response.status_code == 200:
+        if response.status_code == 200 or response.status_code == 302:
             return jsonify({"status": "UP"}), 200
         else:
             return jsonify({"status": "DOWN"}), 503
