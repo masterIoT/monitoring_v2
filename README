@@ -1,4 +1,4 @@
-to start run this commande line : 
+to start run this command line : 
 
 macOs et windows : 
 docker run -p 5004:5004 ghcr.io/masteriot/monitoring_v2
