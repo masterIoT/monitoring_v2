@@ -20,7 +20,7 @@ COPY . /
 RUN pip install flask flask-cors requests
 
 # Exposer le port utilisé par le serveur
-EXPOSE 5000
+EXPOSE 5004
 
 # Définir la commande de lancement
 CMD ["python", "app.py"]
